@@ -1,13 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.7824919
-  brandStrength: 1
   lightness: 0.472073
+  brandStrength: 0.6213749
   brandColors:
-    - '#050706'
-    - '#FFFFFF'
-    - '#E0E662'
-    - '#EE4188'
-    - '#0F9146'
+    - '#010101'
+    - '#F9F9F9'
+    - '#4C3B04'
+    - '#FBCD03'
+    - '#DEDA6D'
   rhythmicContrast: 0.7502685
 typography_spectrum: 0.2046187
+layout_spectrum: 1
+name: Sabet
